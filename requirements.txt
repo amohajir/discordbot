@@ -1,1 +1,3 @@
 git+https://github.com/amohajir/morspinebot.git
+PyNaCl==1.3.0
+dnspython==1.16.0
