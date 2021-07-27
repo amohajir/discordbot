@@ -15,23 +15,8 @@ async def on_message(message):
     return
   print('{} has connected to Discord!'.format(client.user))
 
-  # choices = ['Zakariah Siyaji, Rush Ortho > Dr. Howard An > LMD Study', "username = zsiyaji\npassword = Dyog123", '1. account', "2. LMD", 'please enter an exclamation after each command, ex: account!']
-
   if message.content == 'hello!':
     await message.channel.send('Hi, I am the MORSpineBot :robot:! I was created to answer any and all general questions you may have :grin:. For a list of command options that I currently recognize, simply type "options!"')
-
-  # elif message.content == 'LMD!':
-  #   response = choices[0]
-  #   await message.channel.send(response)
-
-  # elif message.content == 'account!':
-  #   response = choices[1]
-  #   await message.channel.send(response)
-
-  # elif message.content == 'option!':
-  #   response = choices[2]
-  #   for val in response:
-  #     await message.channel.send(val)
 
   elif message.content == 'options!':
     await message.channel.send('The following is a list of commands that I currently recognize... Be sure to enter an exclamation after each command, e.g. login! \n1. help! \n2. zaki! \n3. login! \n4. papersandtextbooks! \n5. instructionsandmeasurements! \n6. tables! \n7. otherquestion!')
@@ -67,9 +52,5 @@ async def on_message(message):
 # Seventh Command
   elif message.content == 'otherquestion!':
     await message.channel.send('If I was unable to answer your question, please be sure to ask any of one the Team Leads :).')
-  
-# (Secret Command)
-  #elif message.content == 'Zaki!':
-    #await message.channel.send(':stuck_out_tongue: bitch who tf you yelling for')
 
 client.run('NzI4NzI5NzY5MTYzNjIwNDc4.Xv-ofA.AHvCtJpUic8NAmnn5FKr4dX8E7E')
