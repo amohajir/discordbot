@@ -52,5 +52,3 @@ async def on_message(message):
 # Seventh Command
   elif message.content == 'otherquestion!':
     await message.channel.send('If I was unable to answer your question, please be sure to ask any of one the Team Leads :).')
-
-client.run('NzI4NzI5NzY5MTYzNjIwNDc4.Xv-ofA.AHvCtJpUic8NAmnn5FKr4dX8E7E') # Unique Discord Token
